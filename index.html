@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="img7.jpg">
+    <title>Nature</title>
+</head>
+<body>
+    
+    <section class="parallax">
+        <h1>nature</h1>
+        <div class="p_card">
+            <section class="pa p-1">
+                <section class="parallax_inner">
+                    <h1>Forest</h1>
+                </section>
+            </section>
+            <div class="data">
+                <h2>The Serenity of Forests</h2>
+                <p>Forests, with their towering trees and lush undergrowth, provide a serene escape from the hustle and bustle of urban life. These verdant sanctuaries are home to countless species of flora and fauna, each playing a vital role in the ecosystem.
+                    <br>
+                    <br>
+                    <i class="like fa fa-heart" style="font-size: 25px;"></i>
+                    <i class="bookmark fa fa-bookmark" style="font-size: 25px;"></i>
+                    <i class="share  fa fa-comment" style="font-size:25px;"></i>
+                </p>
+            </div>
+        </div>
+        <div class="p_card">
+            <section class="pa p-2">
+                <section class="parallax_inner">
+                    <h1>Mountains</h1>
+                </section>
+            </section>
+            <div class="data">
+                <h2>The Majesty of Mountains</h2>
+                <p>Mountains, with their awe-inspiring heights and rugged terrain, stand as magnificent testaments to the Earth's geological history. These towering formations, often cloaked in snow, are not just physical landmarks but also sources of inspiration and adventure.
+                    <br>
+                    <br>
+                    <i class="like fa fa-heart" style="font-size: 25px;"></i>
+                    <i class="bookmark fa fa-bookmark" style="font-size: 25px;"></i>
+                    <i class="share  fa fa-comment" style="font-size:25px;"></i>
+                </p>
+            </div>
+        </div>
+        <div class="p_card">
+
+            <section class="pa p-3">
+                <section class="parallax_inner">
+                    <h1>Oceans</h1>
+                </section>
+            </section>
+            <div class="data">
+                <h2>The Tranquility of Oceans</h2>
+                <p>Oceans cover more than 70% of the Earth's surface, embodying both tranquility and mystery. The rhythmic ebb and flow of tides, the gentle lapping of waves against the shore, and the vast expanse of blue water create a calming, meditative environment.
+                    <br>
+                    <br>
+                    <i class="like fa fa-heart" style="font-size: 25px;"></i>
+                    <i class="bookmark fa fa-bookmark" style="font-size: 25px;"></i>
+                    <i class="share  fa fa-comment" style="font-size:25px;"></i>
+                </p>
+                
+            </div>
+        </div>
+        <div class="p_card">
+
+            <section class="pa p-4">
+                <section class="parallax_inner">
+                    <h1>Deserts</h1>
+                </section>
+            </section>
+            <div class="data">
+                <h2>The Diversity of Deserts</h2>
+                <p>Deserts, often perceived as barren wastelands, are actually rich ecosystems teeming with life adapted to harsh conditions. These arid landscapes, characterized by their vast stretches of sand, rocky plateaus, and unique flora and fauna, showcase nature's resilience.
+                    <br>
+                    <br>
+                    <i class="like fa fa-heart" style="font-size: 25px;"></i>
+                    <i class="bookmark fa fa-bookmark" style="font-size: 25px;"></i>
+                    <i class="share  fa fa-comment" style="font-size:25px;"></i>
+                </p>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            Made with &nbsp; <i class="fa fa-heart" style="font-size: 15px; color: red;"></i> &nbsp; by Mrityunjay  &copy 2024
+        </p>
+    </footer>
+    <script>
+        function like(event) {
+            if(event.target.style.color === "red") {
+                event.target.style.color = "rgb(191, 191, 191)";
+            } else {
+                event.target.style.color = "red";
+            }
+        }
+        function bookM(event) {
+            if(event.target.style.color === "rgb(138, 58, 152)") {
+                event.target.style.color = "rgb(191, 191, 191)";
+            } else {
+                event.target.style.color = "rgb(138, 58, 152)";
+            }
+        }
+        document.querySelectorAll('.like').forEach(function(e) {
+            e.addEventListener('click', like);
+        });
+        document.querySelectorAll('.bookmark').forEach(function(e) {
+            e.addEventListener('click', bookM);
+        })
+    </script>
+</body>
+</html>

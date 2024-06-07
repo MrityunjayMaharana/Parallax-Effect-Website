@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.parallax {
+    width: 60%;
+    padding: 30px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.parallax h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(129, 95, 122);
+    opacity: 85%;
+    margin-bottom: 30px;
+}
+
+.p_card h1 {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    opacity: 85%;
+    transition: 0.3s ease;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+    transition: 0.5s ease;
+}
+
+h2:hover {
+    letter-spacing: 8px;
+    word-spacing: 10px;
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+    font-size: 16px;
+    margin: 0 50px 40px;
+    color: rgb(141, 141, 141);
+}
+
+.like, .bookmark{
+    color: rgb(191, 191, 191);
+    margin-right: 20px;
+    transition: 0.2s ease;
+}
+
+.like:hover, .bookmark:hover {
+    color: rgb(141, 141, 141);
+    font-size: 50px;
+    transition: 0.2s ease;
+}
+
+
+.p_card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.parallax_inner {
+    padding: 10% 0;
+}
+
+.p-1 {
+    background: url(img5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+    transition: 0.5s ease;
+
+}
+.p-2 {
+    background: url(img1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+.p-3 {
+    background: url(img3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+.p-4 {
+    align-items: center;
+    justify-content: center;
+    background: url(img8.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+
+.pa:hover {
+    border-radius:  0px;
+}
+
+.data {
+    padding: 40px;
+    
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
